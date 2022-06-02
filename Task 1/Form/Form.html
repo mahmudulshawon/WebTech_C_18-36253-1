@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head><title>Donation Information Form</title></head>
+<body>
+<h2 style="color:red;text-align:center;"><u>Donor Information</u></h2>
+
+<form style="text-align:center;"action="/action_page.php" target="_blank" method="post">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br>
+
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br>
+
+  <label for="cname">Company Name:</label>
+  <input type="text" id="cname" name="cname"><br>
+
+  <label for="adress1">Adress 1:</label>
+  <input type="text" id="adress1" name="adress1"><br>
+
+  <label for="adress2">Adress 2:</label>
+  <input type="text" id="adress2" name="adress2"><br>
+
+  <label for="city">City:</label>
+  <input type="text" id="city" name="city"><br>
+
+  <label for="zcode">Zip Code:</label>
+  <input type="text" id="zcode" name="zcode"><br>
+
+  <label for="phone">Phone:</label>
+  <input type="text" id="phone" name="phone"><br>
+
+  <label for="email">Email:</label>
+  <input type="text" id="email" name="email"><br>
+
+  <label for="amount1">Donation Amount:</label>
+  <select id="amount1" name="amount1">
+    <option value="100tk">100tk</option>
+    <option value="500tk">500tk</option>
+    <option value="1000tk">1000tk</option>
+  </select> <br>
+
+  <label for="">Or, Other Amount:</label>
+  <input type="text" id="amount2" name="amount2"><br><br>
+
+
+
+
+
+
+
+  <h2 style="color:red;text-align: center;"><u>Honorarium and Memorial Donation Information</u></h2>
+
+  <p>I would like to make this donation:</p>
+
+   <input type="radio" id="to honor" name="to_honor" value="To Honor">
+   <label for="html">To Honor</label>
+   <input type="radio" id="in memory of" name="in_memory_of" value="In Memory of">
+   <label for="css">IN Memory of</label><br>
+
+   <label for="name">Name:</label>
+   <input type="text" id="name" name="name"><br>
+
+   <label for="adress">Adress:</label>
+   <input type="text" id="adress" name="adress"><br><br>
+
+
+
+
+
+
+
+
+   <h2 style="color:red;text-align:center;"><u>Additional Information</u></h2>
+
+   <label for="name">Please enter your name, company or organization as you like it to appear in our publications,<br>
+   Name:</label>
+   <input type="text" id="name" name="name"><br>
+
+   <input type="checkbox">
+   <label for="checkbox">I would like my gift to remain anonymous.</label><br>
+   <input type="checkbox">
+   <label for="checkbox">My employer offers a matching gift program. I will mail the matching gift form.</label><br><br><br>
+
+   <label for="comments;" style="color:red;">Comments:</label>
+   <input type="text"id="commnets" name="comments"><br><br>
+
+   <input type="submit" value="Submit">  <input type="Reset" value="Reset">
+   
+</form> 
+</body>
+</html>
